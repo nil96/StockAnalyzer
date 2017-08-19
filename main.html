@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js"></script>
+      <script src ="GetData.js"></script>
+
+   </head>
+   <body>
+      <form action="/action_page.php">
+           <input id="SeachBox" type="text"><br>
+           <input type="button" value="Analyze" onClick="getCompanyName()">
+      </form>
+    <div id="myDiv" style="width: 480px; height: 400px;"><!-- Plotly chart will be drawn inside this DIV --></div>
+
+</body>
+</html>
+
